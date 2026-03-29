@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc; /* very light */
+    color: #333;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left side */
+.left {
+    width: 28%;
+    background: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-right: 1px solid #e5e7eb;
+}
+
+.left img {
+    width: 110px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.left h1 {
+    font-size: 22px;
+    color: #111827;
+}
+
+.left p {
+    color: #6b7280;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Right side */
+.right {
+    width: 72%;
+    padding: 30px;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Headings */
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+/* Text */
+p {
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+/* List */
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 8px;
+    margin: 5px 0;
+    background: #f1f5f9;
+    border-radius: 5px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+}
