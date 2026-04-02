@@ -16,6 +16,3 @@ This is my personal portfolio website created for Task 1 of the Future Interns F
 - Contact section
 - Resume download
 
-## Projects Included
-- Weather Prediction
-- Pneumonia Detection using X-ray Web Application
